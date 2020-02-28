@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/cyprienquivet/Documents/GIT/Realisation_Systeme/borne.cpp
+iostream
+-
+memoire_borne.h
+/Users/cyprienquivet/Documents/GIT/Realisation_Systeme/memoire_borne.h
+donnees_borne.h
+/Users/cyprienquivet/Documents/GIT/Realisation_Systeme/donnees_borne.h
+lecteurcarte.h
+/Users/cyprienquivet/Documents/GIT/Realisation_Systeme/lecteurcarte.h
+
+/Users/cyprienquivet/Documents/GIT/Realisation_Systeme/donnees_borne.h
+
+/Users/cyprienquivet/Documents/GIT/Realisation_Systeme/lecteurcarte.cpp
+lecteurcarte.h
+/Users/cyprienquivet/Documents/GIT/Realisation_Systeme/lecteurcarte.h
+
+/Users/cyprienquivet/Documents/GIT/Realisation_Systeme/lecteurcarte.h
+lcarte.h
+-
+
+/Users/cyprienquivet/Documents/GIT/Realisation_Systeme/memoire_borne.h
+
