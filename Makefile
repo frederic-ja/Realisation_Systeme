@@ -111,71 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hello
+# Target rules for targets named Borne
 
 # Build rule for target.
-hello: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello
-.PHONY : hello
+Borne: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Borne
+.PHONY : Borne
 
 # fast build rule for target.
-hello/fast:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-.PHONY : hello/fast
+Borne/fast:
+	$(MAKE) -f CMakeFiles/Borne.dir/build.make CMakeFiles/Borne.dir/build
+.PHONY : Borne/fast
 
-borne.o: borne.cpp.o
+src/borne.o: src/borne.cpp.o
 
-.PHONY : borne.o
-
-# target to build an object file
-borne.cpp.o:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/borne.cpp.o
-.PHONY : borne.cpp.o
-
-borne.i: borne.cpp.i
-
-.PHONY : borne.i
-
-# target to preprocess a source file
-borne.cpp.i:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/borne.cpp.i
-.PHONY : borne.cpp.i
-
-borne.s: borne.cpp.s
-
-.PHONY : borne.s
-
-# target to generate assembly for a file
-borne.cpp.s:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/borne.cpp.s
-.PHONY : borne.cpp.s
-
-lecteurcarte.o: lecteurcarte.cpp.o
-
-.PHONY : lecteurcarte.o
+.PHONY : src/borne.o
 
 # target to build an object file
-lecteurcarte.cpp.o:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/lecteurcarte.cpp.o
-.PHONY : lecteurcarte.cpp.o
+src/borne.cpp.o:
+	$(MAKE) -f CMakeFiles/Borne.dir/build.make CMakeFiles/Borne.dir/src/borne.cpp.o
+.PHONY : src/borne.cpp.o
 
-lecteurcarte.i: lecteurcarte.cpp.i
+src/borne.i: src/borne.cpp.i
 
-.PHONY : lecteurcarte.i
+.PHONY : src/borne.i
 
 # target to preprocess a source file
-lecteurcarte.cpp.i:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/lecteurcarte.cpp.i
-.PHONY : lecteurcarte.cpp.i
+src/borne.cpp.i:
+	$(MAKE) -f CMakeFiles/Borne.dir/build.make CMakeFiles/Borne.dir/src/borne.cpp.i
+.PHONY : src/borne.cpp.i
 
-lecteurcarte.s: lecteurcarte.cpp.s
+src/borne.s: src/borne.cpp.s
 
-.PHONY : lecteurcarte.s
+.PHONY : src/borne.s
 
 # target to generate assembly for a file
-lecteurcarte.cpp.s:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/lecteurcarte.cpp.s
-.PHONY : lecteurcarte.cpp.s
+src/borne.cpp.s:
+	$(MAKE) -f CMakeFiles/Borne.dir/build.make CMakeFiles/Borne.dir/src/borne.cpp.s
+.PHONY : src/borne.cpp.s
+
+src/lecteurcarte.o: src/lecteurcarte.cpp.o
+
+.PHONY : src/lecteurcarte.o
+
+# target to build an object file
+src/lecteurcarte.cpp.o:
+	$(MAKE) -f CMakeFiles/Borne.dir/build.make CMakeFiles/Borne.dir/src/lecteurcarte.cpp.o
+.PHONY : src/lecteurcarte.cpp.o
+
+src/lecteurcarte.i: src/lecteurcarte.cpp.i
+
+.PHONY : src/lecteurcarte.i
+
+# target to preprocess a source file
+src/lecteurcarte.cpp.i:
+	$(MAKE) -f CMakeFiles/Borne.dir/build.make CMakeFiles/Borne.dir/src/lecteurcarte.cpp.i
+.PHONY : src/lecteurcarte.cpp.i
+
+src/lecteurcarte.s: src/lecteurcarte.cpp.s
+
+.PHONY : src/lecteurcarte.s
+
+# target to generate assembly for a file
+src/lecteurcarte.cpp.s:
+	$(MAKE) -f CMakeFiles/Borne.dir/build.make CMakeFiles/Borne.dir/src/lecteurcarte.cpp.s
+.PHONY : src/lecteurcarte.cpp.s
 
 # Help Target
 help:
@@ -185,13 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... hello"
-	@echo "... borne.o"
-	@echo "... borne.i"
-	@echo "... borne.s"
-	@echo "... lecteurcarte.o"
-	@echo "... lecteurcarte.i"
-	@echo "... lecteurcarte.s"
+	@echo "... Borne"
+	@echo "... src/borne.o"
+	@echo "... src/borne.i"
+	@echo "... src/borne.s"
+	@echo "... src/lecteurcarte.o"
+	@echo "... src/lecteurcarte.i"
+	@echo "... src/lecteurcarte.s"
 .PHONY : help
 
 
