@@ -1,0 +1,2 @@
+lecteurcarte.o: lecteurcarte.cpp lecteurcarte.h
+borne.o: borne.cpp lecteurcarte.h
